@@ -512,6 +512,7 @@
 .yom-lb .lb-module .yom-generic-listings-module.sidekick.yom-app,
 .yom-generic-listings-module.sidekick.yom-app {
   border: 0;
+  padding: 0;
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .hd,
 .yom-generic-listings-module.sidekick .hd {
