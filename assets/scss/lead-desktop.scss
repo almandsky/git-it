@@ -1,0 +1,9 @@
+@import "_lead.scss";
+/**
+ * Version Manifest Info:
+ * @vm generic_name: lead-modal
+ * @vm dimensions: device=desktop
+ */
+@include lead(
+    $device: desktop
+);

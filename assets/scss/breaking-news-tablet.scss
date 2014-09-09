@@ -1,0 +1,12 @@
+@import "_breaking-news.scss";
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: breaking-news-modal
+ * @vm dimensions: device=tablet
+ */
+
+@media all {
+    @include breakingnews(
+        $device: tablet
+    );
+}

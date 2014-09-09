@@ -1,0 +1,87 @@
+@import "_generic-listings.scss";
+
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: generic-listings-modal
+ * @vm dimensions: device=tablet
+ */
+
+@media all {
+    @include generic-listings(
+        $device: tablet
+    );
+}
+.yog-cp {
+    .hd h2 {
+        font-size : 100%;
+     }
+    .generic-list-item {
+        .play-icon {
+            background-image: url(http://l.yimg.com/dh/ap/default/140414/play-video-icon.png);
+            display: block;
+            float: left;
+            height: 12px;
+            width: 17px;
+            margin: 2px 6px 0px 0px;
+        }
+    }
+}
+.yog-cp {
+    .no_links {
+        .bd { 
+            height: auto; 
+        }
+        .hd h2 {
+            font-size : 100%;
+        }
+        .sponsored-logo {
+            float: right;
+            bottom: 4px;
+            position: relative;
+            height: 30px;
+        }
+        .content-title {
+            font-weight: bold;
+        }
+        .content-desc {
+            margin-bottom: 7px;
+        }
+    }
+}
+.yog-cp {
+    .image_lists {
+        .hd h2 {
+            font-size : 100%;
+        }
+        .listing-title a:first-child {
+            display : block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .generic-list-item a{
+            display : block;
+            margin-bottom: 4px;
+        }
+        .generic-list-item {
+            display : block;
+        }
+        .bd,.latest-content-inline {
+            height : auto;
+        }
+        .thumb-link {
+            text-decoration: none;
+            display: block;
+            height: 200px;
+            position: relative;
+            margin-right: 10px;
+        }
+        .listing-title {
+            overflow: hidden;
+            text-align: left;
+            float: left;
+            width: auto;
+            height: auto;
+        }
+    }
+}
+

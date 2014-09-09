@@ -1,0 +1,73 @@
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: breaking-news-modal
+ * @vm dimensions: device=smartphone
+ */
+@media all {
+  .yom-breaking-news {
+    margin-bottom: 10px;
+    height: 36px;
+    font-size: 14px;
+    background: #F5E073;
+    color: #000000;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+  .yom-breaking-news .hd, .yom-breaking-news .bd {
+    overflow: hidden;
+  }
+  .yom-breaking-news .hd {
+    font-weight: bold;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .yom-breaking-news .hd span {
+    display: inline-block;
+    line-height: normal;
+  }
+  .yom-breaking-news .bd {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px 0 10px;
+  }
+  .yom-breaking-news .bd a, .yom-breaking-news .bd span {
+    color: #000000;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .yom-breaking-news .bd a:hover {
+    text-decoration: underline;
+  }
+  .yom-breaking-news .bd .break_date {
+    font-size: 11px;
+    margin-left: 3px;
+  }
+  .yom-breaking-news.level1 {
+    background: #F64E4D;
+    color: #FFFFFF;
+  }
+  .yom-breaking-news.level1 .bd a, .yom-breaking-news.level1 span, .yom-breaking-news.level1 .break_date {
+    color: #FFFFFF;
+  }
+  .yom-breaking-news.level2 {
+    background: #F5E073;
+    color: #000000;
+  }
+  .yom-breaking-news.level2 .bd a, .yom-breaking-news.level2 span, .yom-breaking-news.level2 .break_date {
+    color: #000000;
+  }
+
+  .yom-breaking-news .hd span {
+    vertical-align: middle;
+  }
+  .yom-breaking-news .bd a, .yom-breaking-news .bd span {
+    vertical-align: middle;
+  }
+}

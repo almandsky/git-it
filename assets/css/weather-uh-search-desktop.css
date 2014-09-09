@@ -1,0 +1,51 @@
+/** overwrites locdrop style **/
+#yucs .dlocation-record,
+#yucs .clocation-record,
+#yucs .detectlocation-con,
+#yucs .dlocation-wrap,
+#yucs .yui3-overlay-content .yui3-widget-ft,
+#yucs .lw-loc-errcon,
+#yucs .lw-loc-disabled,
+#yucs .lw-separator {
+  display: none;
+}
+#yucs .yucs-form-input {
+  position: relative;
+}
+#yucs .yucs-form-input .yui3-overlay-content,
+#yucs .yucs-form-input .lw-loading-msg {
+  border-top: none;
+}
+#yucs .yucs-form-input .yui3-widget.yui3-overlay.yui3-widget-positioned {
+  left: 0 !important;
+  top: 34px !important;
+}
+#yucs .yucs-form-input .yui3-widget .yui3-overlay-content .line-item {
+  padding-left: 7px;
+  padding-bottom: 0px;
+}
+#yucs .yucs-form-input .yui3-widget .yui3-overlay-content .line-item a {
+  color: #333;
+  line-height: 22px;
+}
+#yucs .yucs-form-input .yui3-widget .yui3-overlay-content .yui3-widget-bd,
+#yucs .yucs-form-input .yui3-widget .yui3-overlay-content .lw-loading-msg {
+  border: none;
+  background-color: #fff;
+}
+#yucs .yucs-form-input .yui3-widget li:hover {
+  background-color: #f1f1f1;
+}
+#yucs .yucs-form-input .yui3-widget li:hover a {
+  text-decoration: underline;
+}
+#yucs .yucs-form-input .yucs-search-input {
+  color: #333;
+  margin-bottom: 1px;
+}
+
+/**
+ * Version Manifest Info:
+ * @vm generic_name: weather-uh-search
+ * @vm dimensions: device=desktop
+ */

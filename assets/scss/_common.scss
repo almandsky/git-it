@@ -1,0 +1,24 @@
+.fz-l {
+    font-size: 18px;
+}
+
+.fz-s {
+    font-size: 15px;
+}
+
+.fz-xs {
+    font-size: 13px;
+}
+
+@mixin round-corners( $amount: 5px ) {
+    -moz-border-radius: $amount;
+    -webkit-border-radius: $amount;
+    border-radius: $amount;
+}
+
+@mixin inlineBlock() {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+}

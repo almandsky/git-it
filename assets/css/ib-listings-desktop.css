@@ -1,0 +1,80 @@
+.fz-l {
+  font-size: 18px;
+}
+
+.fz-s {
+  font-size: 15px;
+}
+
+.fz-xs {
+  font-size: 13px;
+}
+
+.yom-ib-listings-module .hd {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+.yom-ib-listings-module .bd {
+  font-size: 13px;
+  line-height: 15px;
+  position: relative;
+}
+.yom-ib-listings-module .ib-list-item {
+  float: left;
+  width: 20%;
+  position: relative;
+}
+.yom-ib-listings-module .ib-list-item:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  right: 5%;
+  height: 170px;
+  width: 1px;
+  background: #D8D8D8;
+}
+.yom-ib-listings-module .ib-list-item:last-child:after {
+  display: none;
+}
+.yom-ib-listings-module .ib-list-item:hover .cta-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.yom-ib-listings-module .ib-list-item:hover .icon-slideshow {
+  opacity: 1;
+}
+.yom-ib-listings-module .listing-title {
+  width: 90%;
+}
+.yom-ib-listings-module .thumb-link {
+  margin: 0 0 15px 0;
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+.yom-ib-listings-module .thumb-link img {
+  width: 100%;
+  height: auto;
+}
+.yom-ib-listings-module .listing-title {
+  font-size: 90%;
+}
+.yom-ib-listings-module .listing-title .title {
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  cursor: pointer;
+}
+.yom-ib-listings-module .icon-slideshow, .yom-ib-listings-module .icon-white-play-tiny {
+  background-color: #324fe1;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  left: 5px;
+  opacity: 0;
+  -webkit-transition: opacity 0.16s linear;
+  -moz-transition: opacity 0.16s linear;
+  transition: opacity 0.16s linear;
+  border-radius: 2px;
+}

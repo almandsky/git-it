@@ -1,0 +1,78 @@
+@import "/home/y/share/htdocs/media/modules/content_index/assets/scss/_common.scss";
+
+.yom-ib-listings-module {
+    .hd {
+        margin: 15px 0;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .bd {
+        font-size: 13px;
+        line-height: 15px;
+        position: relative;
+    }
+    .ib-list-item {
+        float: left;
+        width: 20%;
+        position: relative;
+    }
+    .ib-list-item:after {
+        position: absolute;
+        display: block;
+        content: "";
+        top: 0;
+        right: 5%;
+        height: 170px;
+        width: 1px;
+        background: #D8D8D8;
+    }
+    .ib-list-item:last-child:after {
+        display: none;
+    };
+    .ib-list-item:hover {
+        .cta-overlay {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .icon-slideshow {
+            opacity: 1;
+        }
+    };
+    .listing-title {
+        width: 90%;
+    }
+    
+    .thumb-link {
+        margin: 0 0 15px 0;
+        width: 90%;
+        height: auto;
+        position: relative;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .listing-title {
+        font-size: 90%;
+        .title {
+            font-weight: 600;
+            margin: 0 0 5px 0;
+            cursor: pointer;
+        }
+        .view {
+        }
+    }
+    .icon-slideshow, .icon-white-play-tiny {
+        background-color: #324fe1;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        bottom: 5px;
+        left: 5px;
+        opacity: 0;
+        -webkit-transition: opacity 0.16s linear;
+        -moz-transition: opacity 0.16s linear;
+        transition: opacity 0.16s linear;
+        border-radius: 2px;
+    }
+}

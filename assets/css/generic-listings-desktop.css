@@ -1,0 +1,878 @@
+.fz-l {
+  font-size: 18px;
+}
+
+.fz-s {
+  font-size: 15px;
+}
+
+.fz-xs {
+  font-size: 13px;
+}
+
+/**
+ * General Info:
+ * Copyright (c) 2012, Yahoo! Inc. All rights reserved.
+ * @custodian Lego NEXT - lego-next@yahoo-inc.com
+ * @package media_project_content
+ * @link http://dist.corp.yahoo.com/by-package/media_project_content/
+ * @documentation http://twiki.corp.yahoo.com/view/Lego/EngCssFramework
+ * @author lego-next@yahoo-inc.com
+ */
+/* ======================================================================== */
+/* START - BIDI Suport */
+@media all {
+  .yog-rtl .yog-nav .yom-ad {
+    text-align: right;
+  }
+
+  .yog-rtl .yog-nav > .yom-ad {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+
+  .yog-rtl .yog-nav .yom-ad center {
+    text-align: right;
+  }
+
+  .yog-rtl .yog-nav .yom-ad-BTN {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .yog-rtl .yog-nav .yom-ad-BTN > center {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .yog-rtl .yog-nav .yom-ad-NE3 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .yog-rtl .yog-nav .yom-ad-NE3 > center {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/* END - BIDI Suport */
+/**
+ * Version Manifest Info:
+ * @vm generic_name: generic-listings-modal
+ * @vm dimensions: device=desktop
+ */
+@media all {
+  .yog-cp .yom-generic-listings-module {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    max-height: 100%;
+    width: 96.7%;
+  }
+  .yog-cp .yom-generic-listings-module .hd h2 {
+    font-size: 138.46154%;
+  }
+  .yog-cp .yom-generic-listings-module .bd {
+    height: 120px;
+    overflow: hidden;
+    font-size: 100%;
+  }
+  .yog-cp .yom-generic-listings-module .thumb-link {
+    float: none;
+  }
+  .yog-cp .yom-generic-listings-module .generic-list-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    margin-bottom: 0px;
+  }
+  .yog-cp .yom-generic-listings-module .generic-list-item a {
+    margin-right: 0px;
+    text-align: left;
+  }
+  .yog-cp .yom-generic-listings-module .listing-title {
+    width: 150px;
+    height: 33px;
+    overflow: hidden;
+    text-align: left;
+  }
+  .yog-cp .yom-generic-listings-module ul {
+    text-align: justify;
+  }
+  .yog-cp .yom-generic-listings-module ul:after {
+    content: " ";
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .yog-cp .hd h2 {
+    font-size: 100%;
+  }
+  .yog-cp .generic-list-item .play-icon {
+    background-image: url(http://l.yimg.com/dh/ap/default/140414/play-video-icon.png);
+    display: block;
+    float: left;
+    height: 12px;
+    width: 17px;
+    margin: 2px 6px 0px 0px;
+  }
+
+  .yog-cp .no_links .bd {
+    height: auto;
+  }
+  .yog-cp .no_links .hd h2 {
+    font-size: 100%;
+  }
+  .yog-cp .no_links .sponsored-logo {
+    float: right;
+    bottom: 4px;
+    position: relative;
+    height: 30px;
+  }
+  .yog-cp .no_links .content-title {
+    font-weight: bold;
+  }
+  .yog-cp .no_links .content-desc {
+    margin-bottom: 7px;
+  }
+
+  .yog-cp .image_lists .hd h2 {
+    font-size: 100%;
+  }
+  .yog-cp .image_lists .listing-title a:first-child {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .yog-cp .image_lists .generic-list-item a {
+    display: block;
+    margin-bottom: 4px;
+  }
+  .yog-cp .image_lists .generic-list-item {
+    display: block;
+  }
+  .yog-cp .image_lists .bd, .yog-cp .image_lists .latest-content-inline {
+    height: auto;
+  }
+  .yog-cp .image_lists .thumb-link {
+    text-decoration: none;
+    display: block;
+    height: 200px;
+    position: relative;
+    margin-right: 10px;
+  }
+  .yog-cp .image_lists .listing-title {
+    overflow: hidden;
+    text-align: left;
+    width: auto;
+    height: auto;
+  }
+
+  .yom-generic-listings-module {
+    /* bucket test: hover style */
+  }
+  .yom-generic-listings-module .hd h2 {
+    font-weight: 300;
+    display: inline;
+  }
+  .yom-generic-listings-module .content-length {
+    font-weight: 500;
+    font-size: 80%;
+  }
+  .yom-generic-listings-module .generic-list-item {
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .yom-generic-listings-module .generic-list-item a {
+    margin-right: 6px;
+    display: block;
+  }
+  .yom-generic-listings-module .generic-list-item .source {
+    color: #1e7d8e;
+  }
+  .yom-generic-listings-module .video .listing-title,
+  .yom-generic-listings-module .slideshow .listing-title {
+    margin-top: 5px;
+  }
+  .yom-generic-listings-module .thumb-link {
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 149px;
+    height: 84px;
+    position: relative;
+    margin-right: 10px;
+  }
+  .yom-generic-listings-module .overlay-icon {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 17px;
+    height: 12px;
+    background-color: #324fe1;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    z-index: 3;
+  }
+  .yom-generic-listings-module .generic-list-item:hover .overlay-tooltip, .yom-generic-listings-module .generic-list-item.hover .overlay-tooltip {
+    display: block;
+  }
+  .yom-generic-listings-module .generic-list-item:hover .overlay-mask, .yom-generic-listings-module .generic-list-item.hover .overlay-mask {
+    display: block;
+  }
+  .yom-generic-listings-module .generic-list-item .overlay-tooltip {
+    display: none;
+    position: absolute;
+    left: 26px;
+    bottom: 4px;
+    font-size: 11px;
+    color: white;
+    z-index: 3;
+  }
+  .yom-generic-listings-module .generic-list-item .overlay-mask {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .yom-generic-listings-module .generic-list-item .video-preview-overlay-mask {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+  }
+  .yom-generic-listings-module .generic-list-item .video-preview-overlay-mask img {
+    -webkit-animation: rotate 0.3s linear infinite;
+    -moz-animation: rotate 0.3s linear infinite;
+    -o-animation: rotate 0.3s linear infinite;
+    animation: rotate 0.3s linear infinite;
+  }
+  .yom-generic-listings-module .generic-list-item img.loading-icon {
+    display: block;
+    margin: 15px auto 0;
+    float: none;
+  }
+  .yom-generic-listings-module .generic-list-item .video-no-preview {
+    color: #fff;
+    z-index: 3;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+  }
+  .yom-generic-listings-module.no_thumbs .generic-list-item {
+    font-size: 13px;
+    padding: 5px 0;
+    margin: 0;
+  }
+  .yom-generic-listings-module .sponsored-logo {
+    float: right;
+  }
+  .yom-generic-listings-module .sponsored-logo .yom-ad {
+    margin-bottom: 10px;
+  }
+  .yom-generic-listings-module .bd {
+    clear: right;
+  }
+  .yom-generic-listings-module .video-preview {
+    display: none;
+  }
+  .yom-generic-listings-module .hoverStyle li:hover {
+    background-color: #FAFAFF;
+  }
+
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+}
+
+  @-moz-keyframes rotate {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+
+    to {
+      -moz-transform: rotate(360deg);
+    }
+}
+
+  @-o-keyframes rotate {
+    from {
+      -o-transform: rotate(0deg);
+    }
+
+    to {
+      -o-transform: rotate(360deg);
+    }
+}
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+  .yom-generic-listings-notitle {
+    margin-top: -10px;
+    padding-top: 0;
+    border-top: 0;
+  }
+  .yom-generic-listings-notitle .hd {
+    display: none;
+  }
+
+  /* START - BIDI Suport */
+  .yog-rtl .yom-generic-listings-module .hd h2 {
+    margin: 0.5em 0;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item a {
+    margin-left: 6px;
+    margin-right: 0;
+  }
+  .yog-rtl .yom-generic-listings-module .thumb-link {
+    margin-right: 0;
+    float: right;
+    margin-left: 10px;
+  }
+  .yog-rtl .yom-generic-listings-module .overlay-icon {
+    right: 5px;
+    left: auto;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item .overlay-tooltip {
+    left: auto;
+    right: 26px;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item .overlay-mask {
+    left: auto;
+    right: 0;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item .video-preview-overlay-mask {
+    left: auto;
+    right: 0;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item .video-no-preview {
+    left: auto;
+    right: 15px;
+  }
+  .yog-rtl .yom-generic-listings-module .sponsored-logo {
+    float: left;
+  }
+
+  /* END - BIDI Suport */
+}
+/* START - BIDI Suport */
+@media all {
+  .yog-rtl .yog-cp .yom-generic-listings-module .listing-title {
+    text-align: right;
+  }
+}
+/* END - BIDI Suport */
+/* Bucket related */
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon,
+.yom-generic-listings-module.sidekick .overlay-icon {
+  position: relative;
+  float: left;
+  left: inherit;
+  bottom: inherit;
+  /* IE7 hack*/
+  +left: 0px;
+  +bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+  border-radius: 0px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-play-xsmall,
+.yom-generic-listings-module.sidekick .overlay-icon.icon-white-play-xsmall {
+  background: transparent url("/media/modules/content_index/assets/images/play_button.png") no-repeat center;
+  background: none, transparent url("/media/modules/content_index/assets/images/play_button.svg") no-repeat;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-story-xsmall,
+.yom-generic-listings-module.sidekick .overlay-icon.icon-white-story-xsmall {
+  display: none;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-slideshow-xsmall,
+.yom-generic-listings-module.sidekick .overlay-icon.icon-white-slideshow-xsmall {
+  background: transparent url("/media/modules/content_index/assets/images/gallery_button.png") no-repeat center;
+  background: none, transparent url("/media/modules/content_index/assets/images/gallery_button.svg") no-repeat;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-trending-xsmall,
+.yom-generic-listings-module.sidekick .overlay-icon.icon-white-trending-xsmall {
+  background: transparent url("/media/modules/content_index/assets/images/trending_button.png") no-repeat center;
+  background: none, transparent url("/media/modules/content_index/assets/images/trending_button.svg") no-repeat;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-comments-xsmall,
+.yom-generic-listings-module.sidekick .overlay-icon.icon-white-comments-xsmall {
+  background: transparent url("/media/modules/content_index/assets/images/comment_button.png") no-repeat center;
+  background: none, transparent url("/media/modules/content_index/assets/images/comment_button.svg") no-repeat;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-shares-xsmall,
+.yom-generic-listings-module.sidekick .overlay-icon.icon-white-shares-xsmall {
+  background: transparent url("/media/modules/content_index/assets/images/share_button.png") no-repeat center;
+  background: none, transparent url("/media/modules/content_index/assets/images/share_button.svg") no-repeat;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-tooltip,
+.yom-generic-listings-module.sidekick .overlay-tooltip {
+  display: none !important;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-hover,
+.yom-generic-listings-module.sidekick .overlay-hover {
+  position: absolute;
+  width: 100%;
+  +width: auto;
+  height: 30px;
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 8px;
+  z-index: 3;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-info-item,
+.yom-generic-listings-module.sidekick .overlay-info-item {
+  float: right;
+  font-size: 11px;
+  font-weight: 200;
+  padding-right: 10px;
+  margin-right: 8px;
+  height: 30px;
+  background: #0c99f7;
+  background: rgba(12, 153, 247, 0.8);
+  display: none;
+  /*Hack for IE7 */
+  +display: block;
+  filter: alpha(opacity=80%);
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-info-item .overlay-info-num,
+.yom-generic-listings-module.sidekick .overlay-info-item .overlay-info-num {
+  position: relative;
+  float: left;
+  padding-top: 8.5px;
+  color: white;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-info-item.callout,
+.yom-generic-listings-module.sidekick .overlay-info-item.callout {
+  float: none;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .overlay-info-item,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .overlay-info-item,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .overlay-info-item,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .overlay-info-item {
+  display: inline-block;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.video[data-mousedetect=in] .overlay-info-item,
+.yom-generic-listings-module.sidekick .generic-list-item.video[data-mousedetect=in] .overlay-info-item {
+  display: inline-block;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.video[data-mousedetect=out] .overlay-info-item,
+.yom-generic-listings-module.sidekick .generic-list-item.video[data-mousedetect=out] .overlay-info-item {
+  display: none;
+}
+
+.yom-lb .lb-module .yom-generic-listings-module.sidekick,
+.yom-generic-listings-module.sidekick {
+  padding-top: 0;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick.yom-app,
+.yom-generic-listings-module.sidekick.yom-app {
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .hd,
+.yom-generic-listings-module.sidekick .hd {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item,
+.yom-generic-listings-module.sidekick .generic-list-item {
+  margin-bottom: 20px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title {
+  position: relative;
+  margin-top: 10px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title a,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title.color-ovrd a:link,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title.color-ovrd a:link {
+  color: #091e42;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title.color-ovrd a:visited,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title.color-ovrd a:visited {
+  color: #091e42;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title.color-ovrd a:hover,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title.color-ovrd a:hover {
+  color: #0c99f7;
+  text-decoration: none;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-sponsored {
+  color: #888888;
+  font-size: 11px;
+  margin-right: 0;
+  padding-right: 0;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-source {
+  color: #1e7d8e;
+  font-size: 11px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-icon,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-icon i,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title a.ad-icon i {
+  color: #888888;
+  text-align: left\9;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-title span,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-title span {
+  font-size: 10px;
+  color: #888888;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-index,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-index {
+  position: relative;
+  margin-top: 7px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-index a,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-index a {
+  color: #0c99f7;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-index a:link,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-index a:link {
+  color: #0c99f7;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-index a:visited,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-index a:visited {
+  color: #aaadb6;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .listing-index a:hover,
+.yom-generic-listings-module.sidekick .generic-list-item .listing-index a:hover {
+  color: #0c99f7;
+  text-decoration: none;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .video-preview,
+.yom-generic-listings-module.sidekick .generic-list-item .video-preview {
+  width: 100%;
+  height: auto;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .thumb-link,
+.yom-generic-listings-module.sidekick .generic-list-item .thumb-link {
+  float: none;
+  width: 280px;
+  height: 112px;
+  overflow: hidden;
+  margin: 0;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .thumb-link img,
+.yom-generic-listings-module.sidekick .generic-list-item .thumb-link img {
+  width: 100%;
+  height: auto;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .Icon,
+.yom-generic-listings-module.sidekick .generic-list-item .Icon {
+  zoom: 1.3;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .content-length,
+.yom-generic-listings-module.sidekick .generic-list-item .content-length {
+  margin-bottom: 5px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .overlay-mask,
+.yom-generic-listings-module.sidekick .generic-list-item .overlay-mask {
+  width: 300px !important;
+  height: 120px !important;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index a,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title a, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index a,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title a,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index a,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title a,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index a,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title a {
+  text-decoration: underline;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index span, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-source, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-sponsored,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title span,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-source,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-sponsored, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index span, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-source, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-sponsored,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title span,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-source,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index span,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title span,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index span,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title span,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-sponsored {
+  text-decoration: none;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-sponsored,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-sponsored, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-sponsored,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-sponsored,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-sponsored {
+  color: #888888 !important;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-source,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-source, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-source,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index .ad-source,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title .ad-source {
+  color: #1e7d8e !important;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index.color-ovrd a,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title.color-ovrd a, .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index.color-ovrd a,
+.yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title.color-ovrd a,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-index.color-ovrd a,
+.yom-generic-listings-module.sidekick .generic-list-item:hover .listing-title.color-ovrd a,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-index.color-ovrd a,
+.yom-generic-listings-module.sidekick .generic-list-item.hover .listing-title.color-ovrd a {
+  text-decoration: none;
+  color: #0c99f7;
+}
+
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module,
+.yog-news-US-en-US-312053 .yom-generic-listings-module,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module,
+.yog-news-US-en-US-312066 .yom-generic-listings-module {
+  border: 0;
+  padding-top: 0;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .hd,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .hd,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .hd,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .hd {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .thumb-link,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .thumb-link,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .thumb-link,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .thumb-link {
+  margin-right: 10px;
+  width: 150px;
+  height: 85px;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .thumb-link img,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .thumb-link img,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .thumb-link img,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .thumb-link img {
+  width: 150px;
+  height: 85px;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .listing-title,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .listing-title {
+  margin: 0;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .listing-title a,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .listing-title a {
+  color: #1D1DA3;
+  margin-top: -2px;
+  line-height: 1.2em;
+  font-size: 14px;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a span,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .listing-title a span,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a span,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .listing-title a span {
+  font-size: 10px;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:link,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .listing-title a:link,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:link,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .listing-title a:link {
+  color: #052041;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:visited,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .listing-title a:visited,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:visited,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .listing-title a:visited {
+  color: #aaadb6;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:hover,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item .listing-title a:hover,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:hover,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item .listing-title a:hover {
+  color: #0c99f7;
+  text-decoration: none;
+}
+.yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item:hover .listing-title a, .yog-news-US-en-US-312053 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item.hover .listing-title a,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item:hover .listing-title a,
+.yog-news-US-en-US-312053 .yom-generic-listings-module .generic-list-item.hover .listing-title a,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item:hover .listing-title a,
+.yog-news-US-en-US-312066 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item.hover .listing-title a,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item:hover .listing-title a,
+.yog-news-US-en-US-312066 .yom-generic-listings-module .generic-list-item.hover .listing-title a {
+  color: #0c99f7;
+  text-decoration: none;
+}
+
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module,
+.yog-news-US-en-US-312070 .yom-generic-listings-module {
+  border: 0;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .hd,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .hd {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item {
+  width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e1e5;
+  padding-top: 10px;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-title {
+  position: relative;
+  margin: 0;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-title a {
+  margin-top: -2px;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding-bottom: 3px;
+  padding-right: 10px;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:link,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-title a:link {
+  color: #052041;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:visited,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-title a:visited {
+  color: #aaadb6;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title a:hover,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-title a:hover {
+  color: #0c99f7;
+  text-decoration: none;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-title span,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-title span {
+  font-size: 10px;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-index,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-index {
+  position: relative;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-index a,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-index a {
+  color: #0c99f7;
+  margin-top: -2px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-index a:link,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-index a:link {
+  color: #0c99f7;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-index a:visited,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-index a:visited {
+  color: #aaadb6;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .listing-index a:hover,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .listing-index a:hover {
+  color: #0c99f7;
+  text-decoration: none;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .thumb-link,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .thumb-link {
+  margin-right: 0px;
+  width: 102px;
+  height: 67px;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item .thumb-link img,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item .thumb-link img {
+  width: 102px;
+  height: 67px;
+}
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item:hover .listing-index a,
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item:hover .listing-title a, .yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item.hover .listing-index a,
+.yog-news-US-en-US-312070 .yom-lb .lb-module .yom-generic-listings-module .generic-list-item.hover .listing-title a,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item:hover .listing-index a,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item:hover .listing-title a,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item.hover .listing-index a,
+.yog-news-US-en-US-312070 .yom-generic-listings-module .generic-list-item.hover .listing-title a {
+  color: #0c99f7;
+  text-decoration: none;
+}
+
+/* End bucket related */

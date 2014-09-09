@@ -1,0 +1,51 @@
+.yom-related-story-module {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.yom-related-story-module h2 {
+  font-size: 120%;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+.yom-related-story-module .list-item {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  display: block;
+  margin-bottom: 10px;
+}
+.yom-related-story-module .list-item a {
+  margin-right: 6px;
+}
+.yom-related-story-module .list-item .source {
+  color: #1e7d8e;
+}
+.yom-related-story-module.sidekick h2 {
+  font-size: 18px;
+  font-weight: 200;
+}
+.yom-related-story-module.sidekick ol {
+  padding-left: 20px;
+  font-size: 14px;
+}
+.yom-related-story-module.sidekick .list-item {
+  list-style: inherit;
+  overflow: visible;
+  display: list-item;
+}
+.yom-related-story-module.sidekick .list-item .source {
+  color: #888888;
+  font-size: 11px;
+}
+
+.sidekick-css-override.yom-related-story-module.sidekick a {
+  color: #091e42;
+  font-size: 14px;
+}
+.sidekick-css-override.yom-related-story-module.sidekick a:hover {
+  color: #0c99f7;
+  text-decoration: none;
+}
+.sidekick-css-override.yom-related-story-module.sidekick a:visited {
+  color: #000;
+}

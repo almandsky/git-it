@@ -1,0 +1,24 @@
+@import "_breaking-news.scss";
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: breaking-news-modal
+ * @vm dimensions: device=smartphone
+ */
+
+@media all {
+    @include breakingnews(
+        $device: smartphone
+    );
+    .yom-breaking-news {
+        .hd {
+            span {
+                vertical-align: middle;
+            }
+        }
+        .bd {
+            a, span {
+                vertical-align: middle;
+            }
+        }
+    }
+}

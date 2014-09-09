@@ -1,0 +1,568 @@
+@import "_generic-listings.scss";
+$hack_ie7:'+';
+
+/**
+ * Version Manifest Info:
+ * @vm generic_name: generic-listings-modal
+ * @vm dimensions: device=desktop
+ */
+
+@media all {
+
+    .yog-cp {
+        .yom-generic-listings-module {
+            .hd {
+                h2 {
+                    font-size: fontsize($L, $desktopBaseFontSz);
+                }
+            }
+
+            .bd {
+                height: 120px;
+                overflow: hidden;
+                font-size: fontsize($XS, $desktopBaseFontSz);
+            }
+
+            .thumb-link {
+                float: none;
+            }
+
+            .generic-list-item {
+                @include inlineBlock();
+                margin-bottom: 0px;
+                a {
+                    margin-right: 0px;
+		    text-align: left;
+                }
+
+            }
+
+            .listing-title {
+                width: 150px;
+                height: 33px;
+                overflow: hidden;
+                text-align: left;
+            }
+
+            ul {
+                text-align: justify;
+            }
+
+            ul:after {
+                content: " ";
+                @include inlineBlock();
+                width: 100%;
+            }
+
+            @include inlineBlock();
+            max-height: 100%;
+            width: 96.7%;
+        }
+    }
+
+    .yog-cp {
+        .hd h2 {
+            font-size : 100%;
+        }
+        .generic-list-item {
+            .play-icon {
+                background-image: url(http://l.yimg.com/dh/ap/default/140414/play-video-icon.png);
+                display: block;
+                float: left;
+                height: 12px;
+                width: 17px;
+                margin: 2px 6px 0px 0px;
+            }
+        }
+    }
+    .yog-cp {
+        .no_links {
+            .bd {
+                height: auto;
+            }
+            .hd h2 {
+                font-size : 100%;
+            }
+            .sponsored-logo {
+                float: right;
+                bottom: 4px;
+                position: relative;
+                height: 30px;
+            }
+            .content-title {
+                font-weight: bold;
+            }
+            .content-desc {
+                margin-bottom: 7px;
+            }
+        }
+    }
+    .yog-cp {
+        .image_lists {
+            .hd h2 {
+                font-size : 100%;
+            }
+            .listing-title a:first-child {
+                display : block;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .generic-list-item a{
+                display : block;
+                margin-bottom: 4px;
+            }
+            .generic-list-item {
+                display : block;
+            }
+            .bd,.latest-content-inline {
+                height : auto;
+            }
+            .thumb-link {
+                text-decoration: none;
+                display: block;
+                height: 200px;
+                position: relative;
+                margin-right: 10px;
+            }
+            .listing-title {
+                overflow: hidden;
+                text-align: left;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+
+    @include generic-listings(
+        $device: desktop
+    );
+
+}
+
+/* START - BIDI Suport */
+@media all{
+    .yog-rtl .yog-cp {
+        .yom-generic-listings-module {
+            .listing-title {
+                text-align: right;
+            }
+        }
+    }
+}
+/* END - BIDI Suport */
+
+/* Bucket related */
+
+
+.yom-lb .lb-module .yom-generic-listings-module.sidekick,
+.yom-generic-listings-module.sidekick {
+    .overlay-icon {
+        position: relative;
+        float: left;
+        left: inherit;
+        bottom: inherit;
+        /* IE7 hack*/
+        #{$hack_ie7}left: 0px;
+        #{$hack_ie7}bottom: 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        z-index: 3;
+        border-radius: 0px;
+
+        &.icon-white-play-xsmall {
+            background: transparent url('/media/modules/content_index/assets/images/play_button.png') no-repeat center;
+            background: none, transparent url('/media/modules/content_index/assets/images/play_button.svg') no-repeat;
+        }
+        
+        &.icon-white-story-xsmall {
+            display: none;
+        }
+
+        &.icon-white-slideshow-xsmall {
+            background: transparent url('/media/modules/content_index/assets/images/gallery_button.png') no-repeat center;
+            background: none, transparent url('/media/modules/content_index/assets/images/gallery_button.svg') no-repeat;
+        }
+
+        &.icon-white-trending-xsmall {
+            background: transparent url('/media/modules/content_index/assets/images/trending_button.png') no-repeat center;
+            background: none, transparent url('/media/modules/content_index/assets/images/trending_button.svg') no-repeat;
+        }
+
+        &.icon-white-comments-xsmall {
+            background: transparent url('/media/modules/content_index/assets/images/comment_button.png') no-repeat center;
+            background: none, transparent url('/media/modules/content_index/assets/images/comment_button.svg') no-repeat;
+        }
+
+        &.icon-white-shares-xsmall {
+            background: transparent url('/media/modules/content_index/assets/images/share_button.png') no-repeat center;
+            background: none, transparent url('/media/modules/content_index/assets/images/share_button.svg') no-repeat;
+        }
+
+    }
+
+    .overlay-tooltip {
+        display: none !important;
+    }
+
+    .overlay-hover {
+        position: absolute;
+        width: 100%;
+        #{$hack_ie7}width: auto;
+        height: 30px;
+        bottom: 0px;
+        left: 0px;
+        margin-bottom: 8px;
+        z-index: 3;
+    }
+
+    .overlay-info-item {
+        float: right;
+        font-size: 11px;
+        font-weight: 200;
+        padding-right: 10px;
+        margin-right: 8px;
+        height: 30px;
+        background: #0c99f7;
+        background: rgba(12, 153, 247, .8);
+        display: none;
+        /*Hack for IE7 */
+        #{$hack_ie7}display: block;
+        filter:alpha(opacity=80%);
+
+        .overlay-info-num {
+            position: relative;
+            float: left;
+            padding-top: 8.5px;
+            color: white;
+        }
+    }
+
+    .overlay-info-item.callout {
+        float: none;
+    }
+
+    .generic-list-item.hover .overlay-info-item,
+    .generic-list-item:hover .overlay-info-item {
+        display: inline-block;
+    }
+
+    .generic-list-item.video[data-mousedetect=in] {
+        .overlay-info-item {
+            display: inline-block;
+        }
+    }
+
+    .generic-list-item.video[data-mousedetect=out] {
+        .overlay-info-item {
+            display: none;
+        }
+    }
+}
+
+.yom-lb .lb-module .yom-generic-listings-module.sidekick,
+.yom-generic-listings-module.sidekick {
+    padding-top: 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    &.yom-app {
+        border: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+    }
+
+    .hd {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+
+    .generic-list-item {
+        margin-bottom: 20px;
+
+        .listing-title {
+            position: relative;
+            margin-top: 10px;
+            a {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 1.2em;
+                padding-right: 10px;
+                margin-right: 10px;
+            }
+            &.color-ovrd a:link {
+                color: #091e42;
+            }
+            &.color-ovrd a:visited {
+                color: #091e42;
+            }
+            &.color-ovrd a:hover {
+                color: #0c99f7;
+                text-decoration: none;
+            }
+            a.ad-sponsored {
+                color: #888888;
+                font-size: 11px;
+                margin-right: 0;
+                padding-right: 0;
+            }
+            a.ad-source {
+                color: #1e7d8e;
+                font-size: 11px;
+            }
+            a.ad-icon {
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin-top: 2px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-right: 0;
+            }
+            a.ad-icon i {
+                color: #888888;
+                text-align: left\9;
+            }
+            span {
+                font-size:10px;
+                color: #888888;
+            }
+        }
+
+        .listing-index {
+            position: relative;
+            margin-top: 7px;
+            a {
+                color:#0c99f7;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.2em;
+            }
+            a:link {
+                color: #0c99f7;
+            }
+            a:visited {
+                color: #aaadb6;
+            }
+            a:hover {
+                color: #0c99f7;
+                text-decoration: none;
+            }
+        }
+
+        .video-preview {
+            width: 100%;
+            height: auto;
+        }
+
+        .thumb-link {
+            float: none;
+            width: 280px;
+            height: 112px;
+            overflow: hidden;
+            margin: 0;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .Icon {
+            zoom: 1.3;
+        }
+
+        .content-length{
+            margin-bottom: 5px;
+        }
+
+        .overlay-mask {
+            width: 300px !important;
+            height: 120px !important;
+        }
+
+        &:hover,
+        &.hover {
+            .listing-index,
+            .listing-title {
+                a {
+                    text-decoration: underline;
+                }
+                span, .ad-source, .ad-sponsored {
+                    text-decoration: none;
+                }
+                .ad-sponsored {
+                    color: #888888 !important;
+                }
+                .ad-source {
+                    color: #1e7d8e !important;
+                }
+                &.color-ovrd a {
+                    text-decoration: none;
+                    color: #0c99f7;
+                }
+            }
+        }
+    }
+}
+
+
+.yog-news-US-en-US-312053,
+.yog-news-US-en-US-312066 {
+    .yom-lb .lb-module .yom-generic-listings-module,
+    .yom-generic-listings-module {
+        border: 0;
+        padding-top: 0;
+
+        .hd {
+            font-size: 18px;
+            line-height: 1.3em;
+        }
+
+        .generic-list-item {
+            width: 100%;
+            margin-bottom: 15px;
+
+            .thumb-link {
+                margin-right: 10px;
+                width: 150px;
+                height: 85px;
+                img {
+                    width: 150px;
+                    height: 85px;
+                }
+            }
+
+            .listing-title {
+                margin: 0;
+                a {
+                    color: #1D1DA3;
+                    margin-top: -2px;
+                    line-height: 1.2em;
+                    font-size: 14px;
+
+                    span {
+                        font-size:10px;
+                    }
+                }
+
+                a:link {
+                    color: #052041;
+                }
+                a:visited {
+                    color: #aaadb6;
+                }
+                a:hover {
+                    color: #0c99f7;
+                    text-decoration: none;
+                }
+            }
+
+             &:hover,
+             &.hover {
+                .listing-title {
+                    a {
+                        color: #0c99f7;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.yog-news-US-en-US-312070 {
+    .yom-lb .lb-module .yom-generic-listings-module,
+    .yom-generic-listings-module {
+        border: 0;
+        padding-top: 0;
+        margin-bottom: 10px;
+
+        .hd {
+            font-size: 18px;
+            line-height: 1.3em;
+        }
+
+        .generic-list-item {
+            width: 100%;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e1e1e5;
+            padding-top: 10px;
+
+            .listing-title {
+                position: relative;
+                margin: 0;
+                a {
+                    margin-top: -2px;
+                    font-size: 14px;
+                    line-height: 1.2em;
+                    padding-bottom: 3px;
+                    padding-right: 10px
+                }
+                a:link {
+                    color: #052041;
+                }
+                a:visited {
+                    color: #aaadb6;
+                }
+                a:hover {
+                    color: #0c99f7;
+                    text-decoration: none;
+                }
+                span {
+                    font-size:10px;
+                }
+            }
+
+            .listing-index {
+                position: relative;
+
+                a {
+                    color:#0c99f7;
+                    margin-top: -2px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 1.2em;
+                }
+                a:link {
+                    color: #0c99f7;
+                }
+                a:visited {
+                    color: #aaadb6;
+                }
+                a:hover {
+                    color: #0c99f7;
+                    text-decoration: none;
+                }
+            }
+
+            .thumb-link {
+                margin-right: 0px;
+                width: 102px;
+                height: 67px;
+                img {
+                    width: 102px;
+                    height: 67px;
+                }
+            }
+
+             &:hover,
+             &.hover {
+                .listing-index,
+                .listing-title {
+                    a {
+                        color: #0c99f7;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* End bucket related */

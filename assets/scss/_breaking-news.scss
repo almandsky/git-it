@@ -1,0 +1,67 @@
+@mixin breakingnews($device) {
+  .yom-breaking-news {
+    margin-bottom: 10px;
+    height: 36px;
+    font-size: 14px;
+    background: #F5E073;
+    color: #000000;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    .hd, .bd {
+        overflow: hidden;
+    }
+
+    .hd {
+        font-weight: bold;
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        padding-left: 10px;
+        span {
+            display: inline-block;
+            line-height: normal;
+        }
+    }
+    .bd {
+        height: 36px;
+        line-height: 36px;
+        padding: 0 10px 0 10px;
+        
+        a, span {
+            color: #000000;
+            max-width: 100%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .break_date {
+            font-size: 11px;
+            margin-left: 3px;
+        }
+    }
+
+    &.level1 {
+      background: #F64E4D;
+      color: #FFFFFF;
+      
+      .bd a, span, .break_date {
+        color: #FFFFFF;
+      }
+    }
+
+    &.level2 {
+      background: #F5E073;
+      color: #000000;
+      
+      .bd a, span, .break_date {
+        color: #000000;
+      }
+    }
+  }
+}

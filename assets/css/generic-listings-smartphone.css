@@ -1,0 +1,161 @@
+.fz-l {
+  font-size: 18px;
+}
+
+.fz-s {
+  font-size: 15px;
+}
+
+.fz-xs {
+  font-size: 13px;
+}
+
+/**
+ * General Info:
+ * Copyright (c) 2012, Yahoo! Inc. All rights reserved.
+ * @custodian Lego NEXT - lego-next@yahoo-inc.com
+ * @package media_project_content
+ * @link http://dist.corp.yahoo.com/by-package/media_project_content/
+ * @documentation http://twiki.corp.yahoo.com/view/Lego/EngCssFramework
+ * @author lego-next@yahoo-inc.com
+ */
+/* ======================================================================== */
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: generic-listings-modal
+ * @vm dimensions: device=smartphone
+ */
+@media all {
+  .yom-generic-listings-module {
+    /* bucket test: hover style */
+  }
+  .yom-generic-listings-module .hd h2 {
+    font-weight: 300;
+    display: inline;
+  }
+  .yom-generic-listings-module .content-length {
+    font-weight: 500;
+    font-size: 80%;
+  }
+  .yom-generic-listings-module .generic-list-item {
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .yom-generic-listings-module .generic-list-item a {
+    margin-right: 6px;
+    display: block;
+  }
+  .yom-generic-listings-module .generic-list-item .source {
+    color: #1e7d8e;
+  }
+  .yom-generic-listings-module .video .listing-title,
+  .yom-generic-listings-module .slideshow .listing-title {
+    margin-top: 5px;
+  }
+  .yom-generic-listings-module .thumb-link {
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 149px;
+    height: 84px;
+    position: relative;
+    margin-right: 10px;
+  }
+  .yom-generic-listings-module .overlay-icon {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 17px;
+    height: 12px;
+    background-color: #324fe1;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    z-index: 3;
+  }
+  .yom-generic-listings-module .generic-list-item:hover .overlay-tooltip, .yom-generic-listings-module .generic-list-item.hover .overlay-tooltip {
+    display: block;
+  }
+  .yom-generic-listings-module .generic-list-item:hover .overlay-mask, .yom-generic-listings-module .generic-list-item.hover .overlay-mask {
+    display: block;
+  }
+  .yom-generic-listings-module .generic-list-item .overlay-tooltip {
+    display: none;
+    position: absolute;
+    left: 26px;
+    bottom: 4px;
+    font-size: 11px;
+    color: white;
+    z-index: 3;
+  }
+  .yom-generic-listings-module .generic-list-item .overlay-mask {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .yom-generic-listings-module.no_thumbs .generic-list-item {
+    font-size: 13px;
+    padding: 5px 0;
+    margin: 0;
+  }
+  .yom-generic-listings-module .sponsored-logo {
+    float: right;
+  }
+  .yom-generic-listings-module .sponsored-logo .yom-ad {
+    margin-bottom: 10px;
+  }
+  .yom-generic-listings-module .bd {
+    clear: right;
+  }
+  .yom-generic-listings-module .hoverStyle li:hover {
+    background-color: #FAFAFF;
+  }
+
+  .yom-generic-listings-notitle {
+    margin-top: -10px;
+    padding-top: 0;
+    border-top: 0;
+  }
+  .yom-generic-listings-notitle .hd {
+    display: none;
+  }
+
+  /* START - BIDI Suport */
+  .yog-rtl .yom-generic-listings-module .hd h2 {
+    margin: 0.5em 0;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item a {
+    margin-left: 6px;
+    margin-right: 0;
+  }
+  .yog-rtl .yom-generic-listings-module .thumb-link {
+    margin-right: 0;
+    float: right;
+    margin-left: 10px;
+  }
+  .yog-rtl .yom-generic-listings-module .overlay-icon {
+    right: 5px;
+    left: auto;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item .overlay-tooltip {
+    left: auto;
+    right: 26px;
+  }
+  .yog-rtl .yom-generic-listings-module .generic-list-item .overlay-mask {
+    left: auto;
+    right: 0;
+  }
+  .yog-rtl .yom-generic-listings-module .sponsored-logo {
+    float: left;
+  }
+
+  /* END - BIDI Suport */
+}

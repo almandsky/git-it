@@ -1,0 +1,59 @@
+/** overwrites locdrop style **/
+
+#yucs{
+    .dlocation-record,
+    .clocation-record,
+    .detectlocation-con,
+    .dlocation-wrap,
+    .yui3-overlay-content .yui3-widget-ft,
+    .lw-loc-errcon,
+    .lw-loc-disabled,
+    .lw-separator{
+        display: none;
+    }
+    
+    .yucs-form-input{
+        position: relative;
+        
+        .yui3-overlay-content,
+        .lw-loading-msg {
+            border-top: none;
+        }
+        
+        .yui3-widget.yui3-overlay.yui3-widget-positioned {
+            left: 0 !important;
+            top: 34px !important;
+        }
+        
+        .yui3-widget{
+            .yui3-overlay-content {
+                .line-item{
+                    padding-left: 7px; 
+                    padding-bottom: 0px;
+        
+                    a{
+                        color: #333;
+                        line-height: 22px;
+                    }
+                }
+                .yui3-widget-bd,
+                .lw-loading-msg {
+                    border: none;
+                    background-color: #fff;
+                }
+            }
+        
+            li:hover{
+                background-color: #f1f1f1;
+                
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .yucs-search-input{
+            color:#333;
+            margin-bottom: 1px;
+        }
+    }
+}

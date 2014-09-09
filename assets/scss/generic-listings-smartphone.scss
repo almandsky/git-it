@@ -1,0 +1,13 @@
+@import "_generic-listings.scss";
+
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: generic-listings-modal
+ * @vm dimensions: device=smartphone
+ */
+
+@media all {
+    @include generic-listings(
+        $device: smartphone
+    );
+}

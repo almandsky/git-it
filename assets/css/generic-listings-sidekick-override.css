@@ -1,0 +1,48 @@
+/**
+ * Version Manifest Info:
+ * @vm generic_name: generic-listings-sidekick-override
+ * @vm dimensions: device=desktop
+ */
+@media all {
+  ul.navlist li a:visited, ul.navlist li a {
+    color: #091e42 !important;
+    text-decoration: none !important;
+  }
+  ul.navlist li a:hover {
+    color: #0c99f7 !important;
+  }
+
+  .yom-comments div.collapsed-button {
+    display: block;
+    text-align: center;
+    color: #091e42;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .yom-comments div.collapsed-button div.arrow-next {
+    background-image: none;
+    width: 0;
+    height: 0;
+    border-width: 5px 5px 0;
+    border-style: solid;
+    border-color: #091e42 transparent transparent;
+    position: absolute;
+    left: 50%;
+    bottom: 6px;
+    margin-left: -5px;
+  }
+  .yom-comments div.collapsed-button:hover {
+    color: #0c99f7;
+  }
+  .yom-comments div.collapsed-button:hover div.arrow-next {
+    border-color: #0c99f7 transparent transparent;
+  }
+
+  .cover-wrap .Ta-start .applet-startscreen .Icon, .yom-video-player .applet-startscreen .Icon {
+    background-color: #0c99f7!important;
+    background-color: rgba(12, 153, 247, 0.8) !important;
+    margin-top: -16px !important;
+    border-radius: 0!important;
+    padding: 13px 10px 11px 14px!important;
+  }
+}

@@ -1,0 +1,77 @@
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: media-experts-modal
+ * @vm dimensions: device=tablet
+ */
+/*Not correct SCSS format. But adding this to make expert module tablet ready.*/
+/*TODO: Refactor this to correct SCSS format. Move this code to mixins.scss*/
+.yom-media-experts-module .hd h1 {
+  padding: 4px 2px 2px;
+  text-align: left;
+  font-weight: 300;
+}
+.yom-media-experts-module .yom-media-expert-bio li h2 {
+  color: #000000;
+  padding: 0 0 2px 0;
+  font-size: 115%;
+  font-weight: 300;
+}
+.yom-media-experts-module .yom-media-expert-bio li a h2 {
+  color: #324fe1;
+}
+.yom-media-experts-module .yom-media-expert-bio li img {
+  border: 0 none;
+  padding: 0 10px 10px 2px;
+  float: left;
+  margin-bottom: 20px;
+}
+.yom-media-experts-module .yom-media-expert-bio li cite {
+  font-size: 84%;
+  padding: 10px 0px 20px 4px;
+}
+.yom-media-experts-module .yom-media-expert-aside {
+  overflow: hidden;
+}
+.yom-media-experts-module .yom-media-expert-post {
+  color: #545554;
+  padding-bottom: 5px;
+}
+.yom-media-experts-module .bd {
+  border-top: solid 1px #e2e2e6;
+  margin-top: 6px;
+  padding: 12px 0px 0px 4px;
+}
+.yom-media-experts-module .bd h1 {
+  padding-bottom: 5px;
+  font-size: 115%;
+  font-weight: 300;
+}
+.yom-media-experts-module .bd li {
+  padding-bottom: 5px;
+}
+.yom-media-experts-module .bd .yom-media-expert-post {
+  color: #324fe1;
+  font-weight: normal;
+}
+.yom-media-experts-module .yom-media-expert-post-meta {
+  font-size: 84%;
+  text-align: left;
+  display: block;
+}
+.yom-media-experts-module .yom-media-experts-post-meta {
+  font-size: 84%;
+  text-align: right;
+  display: block;
+  padding-right: 112px;
+}
+.yom-media-experts-module .yom-media-expert-more-posts {
+  font-weight: normal;
+}
+.yom-media-experts-module .yom-inline-expert-img {
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 35px;
+}
+.yom-media-experts-module .ft {
+  padding: 0px 0px 0px 4px;
+}

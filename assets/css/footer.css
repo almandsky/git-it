@@ -1,0 +1,18 @@
+@media all {
+  .footer-info {
+    margin: 10px 0px 10px 10px;
+    font-size: 90%;
+  }
+  .footer-info cite {
+    display: block;
+    font-size: 100%;
+    color: inherit;
+  }
+  .footer-info ul {
+    margin-top: 10px;
+  }
+  .footer-info li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

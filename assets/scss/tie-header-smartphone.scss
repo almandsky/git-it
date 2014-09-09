@@ -1,0 +1,29 @@
+/** 
+ * Version Manifest Info:
+ * @vm generic_name: tie-header-modal
+ * @vm dimensions: device=smartphone
+ */
+
+@media all {
+
+    .yom-tie-header {
+        padding: 12px;
+        .tie-title{
+             &.control-room-social-bar {
+                overflow: hidden;
+                .social-bar-header{
+                    float: left;
+                    max-width:82%;
+                }
+            }
+            h2 {
+                font-size: 150%;
+            }
+        } 
+ 
+        .yom-share-btns-container.light {
+            float: right;
+            padding-top: 0px;
+        }
+    }
+}

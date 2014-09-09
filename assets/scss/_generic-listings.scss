@@ -1,0 +1,255 @@
+@import "/home/y/share/htdocs/media/modules/content_index/assets/scss/_common.scss";
+@import "/home/y/share/htdocs/media/projects/content/assets/scss/_header.scss";
+
+@mixin generic-listings( $device, $baseFontSize: $desktopBaseFontSz ) {
+
+    .yom-generic-listings-module {
+
+        .hd {
+            h2 {
+                font-weight: 300;
+                display: inline;
+            }
+        }
+
+        .content-length {
+            font-weight: 500;
+            font-size: 80%;
+        }
+
+        .generic-list-item {
+            position: relative;
+            overflow: hidden;
+            zoom: 1;
+            display: block;
+            margin-bottom: 10px;
+            a {
+                margin-right: 6px;
+                display: block;
+            }
+            .source {
+                color: #1e7d8e;
+            }
+        }
+
+        .video .listing-title,
+        .slideshow .listing-title {
+            margin-top: 5px;
+        }
+
+        .thumb-link {
+            text-decoration: none;
+            display: block;
+            float: left;
+            width: 149px;
+            height: 84px;
+            position: relative;
+            margin-right: 10px;
+        }
+
+        .overlay-icon {
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 17px;
+            height: 12px;
+            background-color: #324fe1;
+            @include round-corners( 2px );
+            z-index: 3;
+        }
+
+        .generic-list-item {
+            &:hover,
+            &.hover {
+                .overlay-tooltip {
+                    display: block;
+                }
+                .overlay-mask {
+                    display: block;
+                }
+            }
+            .overlay-tooltip {
+                display: none;
+                position: absolute;
+                left: 26px;
+                bottom: 4px;
+                font-size: 11px;
+                color: white;
+                z-index: 3;
+            }
+            .overlay-mask {
+                display: none;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: 2;
+                background: rgba(0,0,0,0.4);
+            }
+            @if $device == "desktop" {
+                 .video-preview-overlay-mask {
+                     display: none;
+                     position: absolute;
+                     left: 0;
+                     bottom: 0;
+                     z-index: 2;
+                     background: rgba(0,0,0,0.4);
+                     vertical-align: middle;
+                     img {
+                         -webkit-animation: rotate 0.3s linear infinite;
+                         -moz-animation: rotate 0.3s linear infinite;
+                         -o-animation: rotate 0.3s linear infinite;
+                         animation: rotate 0.3s linear infinite;
+                     }
+                 }
+                 img.loading-icon {
+                     display: block;
+                     margin: 15px auto 0;
+                     float: none;
+                 }
+                 .video-no-preview {
+                     color: #fff;
+                     z-index: 3;
+                     display: none;
+                     position: absolute;
+                     top: 35px;
+                     left: 15px;
+                 }
+            }
+        }
+
+        &.no_thumbs {
+            .generic-list-item {
+                font-size: 13px;
+                padding: 5px 0;
+                margin: 0
+            }
+        }
+
+        .sponsored-logo {
+            float: right;
+            .yom-ad {
+                margin-bottom: 10px;
+            }
+        }
+        .bd{
+            clear: right;
+        }
+
+        @if $device == "desktop" {
+            .video-preview {
+                display: none;
+            }
+        }
+
+        /* bucket test: hover style */
+        .hoverStyle li:hover {
+            background-color:#FAFAFF;
+        }
+
+    }
+
+    @if $device == "desktop" {
+        @-webkit-keyframes rotate {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        @-moz-keyframes rotate {
+            from {
+                -moz-transform: rotate(0deg);
+            }
+            to {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        @-o-keyframes rotate {
+            from {
+                -o-transform: rotate(0deg);
+            }
+            to {
+                -o-transform: rotate(360deg);
+            }
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .yom-generic-listings-notitle {
+        margin-top: -10px;
+        padding-top: 0;
+        border-top: 0;
+
+        .hd {
+            display: none;
+        }
+    }
+
+ /* START - BIDI Suport */
+    .yog-rtl {
+        .yom-generic-listings-module {
+            .hd {
+                h2 {
+                    margin: 0.5em 0;
+                }
+            }
+
+            .generic-list-item {
+                a {
+                    margin-left: 6px;
+                    margin-right: 0;
+                }
+            }
+
+            .thumb-link {
+                margin-right: 0;
+                float: right;
+                margin-left: 10px;
+            }
+
+            .overlay-icon {
+                right: 5px;
+                left: auto;
+            }
+
+            .generic-list-item {
+                .overlay-tooltip {
+                    left: auto;
+                    right: 26px;
+                }
+
+                .overlay-mask {
+                    left:auto;
+                    right:0;
+                }
+
+                @if $device == "desktop" {
+                    .video-preview-overlay-mask {
+                            left:auto;
+                            right:0;
+                    }
+
+                    .video-no-preview {
+                            left:auto;
+                            right:15px;
+                    }
+                }
+            }
+
+            .sponsored-logo {
+                float: left;
+            }
+        }
+    }
+    /* END - BIDI Suport */
+}
