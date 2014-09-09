@@ -497,6 +497,10 @@
   padding-right: 10px;
   padding-bottom: 0px;
 }
+.yom-lb .lb-module .yom-generic-listings-module.sidekick.grasstheme .hd,
+.yom-generic-listings-module.sidekick.grasstheme .hd {
+  padding-top: 7px;
+}
 .yom-lb .lb-module .yom-generic-listings-module.sidekick.grasstheme .generic-list-item .thumb-link,
 .yom-generic-listings-module.sidekick.grasstheme .generic-list-item .thumb-link {
   width: 280px;
