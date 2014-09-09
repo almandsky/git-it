@@ -413,7 +413,6 @@
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-play-xsmall,
 .yom-generic-listings-module.sidekick .overlay-icon.icon-white-play-xsmall {
   background: transparent url("https://raw.githack.com/almandsky/git-it/master/assets/images/play_button.png") no-repeat center;
-
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-story-xsmall,
 .yom-generic-listings-module.sidekick .overlay-icon.icon-white-story-xsmall {
@@ -422,22 +421,18 @@
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-slideshow-xsmall,
 .yom-generic-listings-module.sidekick .overlay-icon.icon-white-slideshow-xsmall {
   background: transparent url("https://raw.githack.com/almandsky/git-it/master/assets/images/gallery_button.png") no-repeat center;
-
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-trending-xsmall,
 .yom-generic-listings-module.sidekick .overlay-icon.icon-white-trending-xsmall {
   background: transparent url("https://raw.githack.com/almandsky/git-it/master/assets/images/trending_button.png") no-repeat center;
-
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-comments-xsmall,
 .yom-generic-listings-module.sidekick .overlay-icon.icon-white-comments-xsmall {
   background: transparent url("https://raw.githack.com/almandsky/git-it/master/assets/images/comment_button.png") no-repeat center;
-
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-icon.icon-white-shares-xsmall,
 .yom-generic-listings-module.sidekick .overlay-icon.icon-white-shares-xsmall {
   background: transparent url("https://raw.githack.com/almandsky/git-it/master/assets/images/share_button.png") no-repeat center;
-
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .overlay-tooltip,
 .yom-generic-listings-module.sidekick .overlay-tooltip {
@@ -495,6 +490,19 @@
   display: none;
 }
 
+.yom-lb .lb-module .yom-generic-listings-module.sidekick.grasstheme.yom-app,
+.yom-generic-listings-module.sidekick.grasstheme.yom-app {
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+.yom-lb .lb-module .yom-generic-listings-module.sidekick.grasstheme .generic-list-item .thumb-link,
+.yom-generic-listings-module.sidekick.grasstheme .generic-list-item .thumb-link {
+  width: 280px;
+  height: 112px;
+}
+
 .yom-lb .lb-module .yom-generic-listings-module.sidekick,
 .yom-generic-listings-module.sidekick {
   padding-top: 0;
@@ -504,9 +512,6 @@
 .yom-lb .lb-module .yom-generic-listings-module.sidekick.yom-app,
 .yom-generic-listings-module.sidekick.yom-app {
   border: 0;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;
 }
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .hd,
 .yom-generic-listings-module.sidekick .hd {
@@ -610,8 +615,8 @@
 .yom-lb .lb-module .yom-generic-listings-module.sidekick .generic-list-item .thumb-link,
 .yom-generic-listings-module.sidekick .generic-list-item .thumb-link {
   float: none;
-  width: 280px;
-  height: 112px;
+  width: 300px;
+  height: 120px;
   overflow: hidden;
   margin: 0;
 }
